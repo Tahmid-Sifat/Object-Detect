@@ -1,0 +1,32 @@
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Java build output
+bin/
+out/
+target/
+build/
+
+# Maven
+.mvn/
+!**/src/main/**/*
+!**/src/test/**/*
+*.log
+
+# Gradle
+.gradle/
+gradle-app.setting
+gradle-app.setting.lock
+!**/src/main/**/*
+!**/src/test/**/*
+*.iml
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDEs (optional safety)
+.idea/
+.vscode/
